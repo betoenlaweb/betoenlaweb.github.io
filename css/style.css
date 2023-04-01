@@ -95,6 +95,11 @@ body {
   padding: 0;
 }
 
+#logo {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
 #menu {
   display: none;
   -webkit-box-orient: vertical;
@@ -122,6 +127,7 @@ body {
   fill: #414141;
   opacity: 0;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #sm-icon-list {
@@ -179,6 +185,7 @@ body {
   position: relative;
   fill: #414141;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #menu-item {
@@ -189,6 +196,8 @@ body {
   opacity: 0;
   color: #414141;
   font-weight: 700;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 #container {
@@ -257,13 +266,16 @@ img {
 }
 
 #close-modal {
-  padding: 5% 0px 5% 97%;
+  padding: 5% 5% 5% 5%;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  left: 140px;
 }
 
 #video {
   width: 300px;
-  height: 43%;
+  height: 300px;
   border-radius: 5px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -288,6 +300,7 @@ img {
   width: 300px;
   font-size: .9rem;
   opacity: 0;
+  margin: 0;
 }
 
 #footer {
@@ -373,12 +386,16 @@ img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
   position: relative;
   top: 110px;
   z-index: -1;
   line-height: 2;
   color: #414141;
+}
+
+#about-me {
+  margin: 0;
 }
 
 @media (min-width: 768px) {
